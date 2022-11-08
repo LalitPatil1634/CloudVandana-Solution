@@ -1,0 +1,40 @@
+
+.container {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid white;
+    padding: 5px;
+    font-size: larger;
+
+}
+
+body {
+    counter-reset: Serial;
+}
+
+
+.add_data {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    cursor: pointer;
+}

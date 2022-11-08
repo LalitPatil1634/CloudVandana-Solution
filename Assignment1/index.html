@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudVandana Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <table id="data">
+            <thead>
+                <tr>
+                    <th>SL.No</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>City</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Lalit</td>
+                    <td>Patil</td>
+                    <td>Jalgaon</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Ashish</td>
+                    <td>Nath</td>
+                    <td>Guwahati</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Ravi</td>
+                    <td>Aagale</td>
+                    <td>Nashik</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Prabhat</td>
+                    <td>Shukla</td>
+                    <td>Gorkhapur</td>
+                    <td>India</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Ajay</td>
+                    <td>Mali</td>
+                    <td>Mumbai</td>
+                    <td>India</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <form>
+        <input type="text" id="fname" placeholder="First Name"><br>
+        <input type="text" id="lname" placeholder="Last Name"><br>
+        <input type="text" id="city" placeholder="City"><br>
+        <input type="text" id="country" placeholder="Country"><br>
+        <button type="button" onclick="addToTop()">Add row to top</button>
+        <button type="button" onclick="addToBottom()">Add row to bottom</button>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
